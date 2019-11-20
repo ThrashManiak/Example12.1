@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="io.cordova.camara" version="1.5.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="io.cordova.media-capture" version="1.5.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
 <preference name="phonegap-version" value="cli-9.0.0" />
-  <name>Camara 11-1</name>
+  <name>Capture 12-1</name>
   <description>
-      Esta es una App de PhoneGap para  captura de audio, imagen y video.
+      Esta es una App de PhoneGapp
   </description>
-  <author email="Angeles Esmeralda Segovia c" href="http://cordova.io">
+  <author email="Luis Fernando Hiracheta Soto" href="http://cordova.io">
       Apache Cordova Team
   </author>
   <content src="index.html" />
@@ -13,6 +13,7 @@
   <plugin name="cordova-plugin-dialogs"/> 
   <plugin name="cordova-plugin-device"/>
   <plugin name="cordova-plugin-camera"/>
+  <plugin name="cordova-plugin-media-capture"/>
   <access origin="*" />
   <allow-intent href="http://*/*" />
   <allow-intent href="https://*/*" />
